@@ -4,13 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Homework 08</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <select class="breed-select"></select>
-    <p class="loader">Loading data, please wait...</p>
-    <p class="error">Oops! Something went wrong! Try reloading the page!</p>
+    <div><button type="button">test</button></div>
+    <div id="testdiv"></div>
+    <div style="display: inline;"><input id="search-box"></input></div>
+    <div><ul id="displaybox" style="list-style-type:none"></ul></div>
+    <div id="loader"><p>Loading data, please wait...</p></div>
     <div class="cat-info"></div>
 
-    <script src="index.js" type="module"></script>
+    <script defer src="./index.js" type="module"></script>
+    
   </body>
 </html>
